@@ -1,0 +1,16 @@
+{
+    "name": "evermiss-deeplink",
+    "main": "src/index.ts",
+    "compatibility_date": "2025-08-01",
+    "vars": {
+        "DOMAIN": "evermiss.co.kr",
+        "ENVIRONMENT": "production",
+        "API_URL": "https://api.evermiss.co.kr"
+    },
+    "routes": [
+        {
+            "pattern": "evermiss.co.kr/*",
+            "zone_name": "evermiss.co.kr"
+        }
+    ]
+}
